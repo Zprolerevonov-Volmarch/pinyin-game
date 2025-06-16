@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: 阿里妈妈东方大楷, system-ui;
+    background: black;
+}
+
+@font-face {
+    font-family: '阿里妈妈东方大楷'; /* 自定义字体名称 */
+    src: url('@/resource/AlimamaDongFangDaKai.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
